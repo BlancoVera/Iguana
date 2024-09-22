@@ -1,0 +1,131 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #D17B0F;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero {
+    background-image: url('../imgs/hiena_hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #E08A1E;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #111;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.info-text {
+    width: 50%;
+    padding: 0 20px;
+    text-align: justify;
+    line-height: 1.8;
+
+}
+
+.info-image {
+    width: 50%;
+    text-align: center;
+}
+
+.info-image img {
+    max-width: 90%;
+    border-radius: 100px;
+}
+
+.caracteristicas {
+    padding: 40px 0;
+    background-color: #222;
+}
+
+.caracteristicas-grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caracteristica {
+    text-align: center;
+    padding: 20px;
+}
+
+.caracteristica i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.caracteristica p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.galeria {
+    padding: 40px 0;
+    background-color: #111;
+}
+
+.galeria-grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.galeria-item img {
+    max-width: 90%;
+    max-height: 800px;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    padding: 10px 0;
+    height: 140px;
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+footer p{
+    margin: 1px 0;
+}
+
+footer .nombre{
+    font-weight:bold;
+    font-style: italic;
+    background-color: #000;
+    color: #E08A1E
+}
+
+footer .info{
+    font-style:italic;
+    background-color: #000;
+    color:#999;
+}
